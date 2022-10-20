@@ -13,7 +13,7 @@ void PrintArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        // Console.Write($"{array[i]} "); //выводбудет через пробел 
+        // Console.Write($"{array[i]} "); //вывод будет через пробел 
         Console.Write($"{array[i]}");
         if (i < (array.Length - 1)) Console.Write($","); // через запятую 
     }
